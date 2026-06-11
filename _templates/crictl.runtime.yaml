@@ -1,0 +1,5 @@
+# /etc/crictl.__RUNTIME__.yaml
+runtime-endpoint: unix:///var/run/__RUNTIME__/__RUNTIME__.sock
+image-endpoint: unix:///var/run/__RUNTIME__/__RUNTIME__.sock
+timeout: 10
+debug: false    # true causa errori (non gravi) in "kubeadm reset"
